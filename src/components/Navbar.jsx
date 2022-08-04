@@ -68,9 +68,9 @@ function Navbar() {
         className="block md:hidden ml-[250px] mt-[-36px]"
       >
         {nav ? (
-          <AiOutlineClose size={25} style={{ color: "#0247FE" }} />
+          <AiOutlineClose size={25}  />
         ) : (
-          <AiOutlineMenuUnfold size={25} style={{ color: "#0247FE" }} />
+          <AiOutlineMenuUnfold size={25}  />
         )}
       </div>
 
@@ -80,7 +80,7 @@ function Navbar() {
             ? "fixed left-0 top-0 w-[60%] bg-[#F6F9FF] h-full border-r-gray-900 ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
-      >
+        >
         <img
           src={Logoimage}
           alt="logo"
@@ -122,10 +122,10 @@ function Navbar() {
         </div>
 
         <div className="font-bold mt-[-8px] ">
-          <button className="rounded-md text-[#0247FE] list-none border-solid border border-[#0247FE] pl-4 pr-4 pt-2 pb-2 ml-8 border-b  text-[14px]">
+          <button className="rounded-md text-[#0247FE] list-none border-solid border border-[#0247FE] pl-4 pr-4 pt-2 pb-2 ml-8 border-b  text-[12px]">
             Log in
           </button>
-          <button className="rounded-md text-[white] list-none pl-4 border-solid  bg-[#0247FE]  pr-4 pt-2 pb-2 mt-4 ml-8 border-b text-[14px]">
+          <button className="rounded-md text-[white] list-none pl-4 border-solid  bg-[#0247FE]  pr-2 pt-2 pb-2 mt-4 ml-8 border-b text-[12px]">
             Create Free Account
           </button>
         </div>
